@@ -3,7 +3,6 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
 import { motion } from 'framer-motion'
-import ThemeToggle from '@/components/ThemeToggle'
 
 const navItems = [
   { name: 'Home', path: '/' },

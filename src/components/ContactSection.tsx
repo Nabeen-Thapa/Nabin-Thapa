@@ -21,7 +21,7 @@ export default function ContactSection() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
               <p className="mb-6">
-                Feel free to reach out if you're looking for a developer, have a question, or just want to connect.
+                Feel free to reach out if you&apos;re looking for a developer, have a question, or just want to connect.
               </p>
               
               <div className="space-y-4">

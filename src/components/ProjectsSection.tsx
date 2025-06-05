@@ -2,7 +2,6 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { projects } from '@/constants/projects'
-import Image from 'next/image';
 
 export default function ProjectsSection() {
   return (
@@ -17,7 +16,7 @@ export default function ProjectsSection() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">
             Featured <span className="text-primary">Projects</span>
           </h2>
-
+          
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
               <motion.div
@@ -28,15 +27,7 @@ export default function ProjectsSection() {
                 <div className="h-48 bg-gray-200 dark:bg-slate-600 relative overflow-hidden">
                   {/* Replace with actual project image */}
                   <div className="w-full h-full flex items-center justify-center">
-                    <span className="text-gray-500 dark:text-gray-400">
-                      <Image
-                        src={project.imagePath}
-                        alt={project.title}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                      />
-                    </span>
+                    <span className="text-gray-500 dark:text-gray-400"></span>
                   </div>
                 </div>
                 <div className="p-6">
@@ -46,8 +37,8 @@ export default function ProjectsSection() {
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     {project.technologies.map((tech) => (
-                      <span
-                        key={tech}
+                      <span 
+                        key={tech} 
                         className="text-xs bg-gray-100 dark:bg-slate-600 text-gray-800 dark:text-gray-200 px-2 py-1 rounded"
                       >
                         {tech}
@@ -80,7 +71,7 @@ export default function ProjectsSection() {
               </motion.div>
             ))}
           </div>
-
+          
           <div className="text-center mt-12">
             <Link
               href="/projects"

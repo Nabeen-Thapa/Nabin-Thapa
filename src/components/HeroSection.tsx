@@ -14,7 +14,7 @@ export default function HeroSection() {
           className="max-w-3xl"
         >
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
-            Hi, I'm <span className="text-primary">Nabin Thapa</span>
+            Hi, I&apos;m <span className="text-primary">Nabin Thapa</span>
           </h1>
           <h2 className="text-2xl sm:text-3xl text-secondary mb-6">
             Backend Developer

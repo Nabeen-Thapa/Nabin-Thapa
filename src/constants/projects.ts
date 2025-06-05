@@ -1,12 +1,9 @@
-import { StaticImport } from "next/dist/shared/lib/get-img-props"
-
 export interface Project {
   id: string
   title: string
   description: string
   technologies: string[]
-  imagePath?: string
-  demoUrl?: string | StaticImport;
+  demoUrl?: string
   codeUrl?: string
 }
 
@@ -16,7 +13,6 @@ export const projects: Project[] = [
     title: 'Portfolio Website',
     description: 'A personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-    imagePath: '/images/projects/portfolio.jpg',
     demoUrl: '#',
     codeUrl: '#',
   },
@@ -25,7 +21,6 @@ export const projects: Project[] = [
     title: 'studnet Attendance system',
     description: 'A full stack sttendance platform with html, css, PHP with MySql',
     technologies: ['PHP', 'css', 'MySQL'],
-    imagePath: '/images/projects/portfolio.jpg',
     demoUrl: '#',
     codeUrl: '#',
   },
@@ -34,7 +29,6 @@ export const projects: Project[] = [
     title: 'Note Keeping System - iKeepMy',
     description: 'A MERN-stack note keeping platform with React, Node.js,ExpressJS, and MongoDB.',
     technologies: ['React', 'ExpressJS', 'MongooDB'],
-    imagePath: '/images/projects/portfolio.jpg',
     demoUrl: '#',
     codeUrl: '#',
   },
@@ -43,7 +37,6 @@ export const projects: Project[] = [
     title: 'E-commerce Platform',
     description: 'A backend e-commerce platform with React, Node.js, and typeORM',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
-    imagePath: '/images/projects/portfolio.jpg',
     demoUrl: '#',
     codeUrl: '#',
   },
@@ -52,7 +45,6 @@ export const projects: Project[] = [
     title: 'E-commerce Platform',
     description: 'A full-Stack e-commerce platform with React, Node.js, and typeORM',
     technologies: ['React', 'Node.js', "Typescript", 'TypeORM'],
-    imagePath: '/images/projects/portfolio.jpg',
     demoUrl: '#',
     codeUrl: '#',
   },
@@ -61,7 +53,6 @@ export const projects: Project[] = [
     title: 'News portal',
     description: 'A simple News platform using news API with React',
     technologies: ['React'],
-    imagePath: '/images/projects/portfolio.jpg',
     demoUrl: '#',
     codeUrl: '#',
   },
@@ -70,8 +61,8 @@ export const projects: Project[] = [
     title: 'text editor',
     description: 'A simple real time text editor/colaborator platform with React Soecket.io',
     technologies: ['React', 'SocketIO'],
-    imagePath: '/images/projects/portfolio.jpg',
     demoUrl: '#',
     codeUrl: '#',
   }
+  // Add more projects as needed
 ]

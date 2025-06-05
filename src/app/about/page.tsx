@@ -1,12 +1,7 @@
 'use client';
 import { motion } from 'framer-motion'
-import { Metadata } from 'next'
 import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi'
 
-// export const metadata: Metadata = {
-//   title: 'About Me',
-//   description: 'Learn more about my background, skills, and experience',
-// }
 export default function ContactSection() {
   return (
     <section className="py-20 bg-gray-50 dark:bg-slate-800">
@@ -26,7 +21,7 @@ export default function ContactSection() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
               <p className="mb-6">
-                Feel free to reach out if you're looking for a developer, have a question, or just want to connect.
+                Feel free to reach out if you&apos;re looking for a developer, have a question, or just want to connect.
               </p>
               
               <div className="space-y-4">
