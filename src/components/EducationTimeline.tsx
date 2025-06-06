@@ -3,10 +3,10 @@ import { FiBook } from 'react-icons/fi'
 const educations = [
   {
     id: 1,
-    degree: 'Bachelor of Computer Science',
-    institution: 'University Name',
-    period: '2015 - 2019',
-    description: 'Specialized in Web Development and Software Engineering. Graduated with honors.',
+    degree: 'Bachelor of Computer Application',
+    institution: 'patan multiple campus',
+    period: '2021 - ongoing',
+    description: 'Specialized in Web Development and Software Engineerings.',
   },
   // Add more education entries as needed
 ]

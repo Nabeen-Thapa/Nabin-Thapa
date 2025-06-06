@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://yourportfolio.com',
+    url: 'https://my-portfilio-uzjt.vercel.app/',
     siteName: 'Nabin Thapa | Portfolio',
     title: 'Nabin Thapa | Portfolio',
     description: 'Personal portfolio showcasing my projects and skills',
@@ -45,14 +45,7 @@ export const metadata: Metadata = {
         alt: 'Nabin Thapa Portfolio',
       },
     ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Nabin Thapa | Portfolio',
-    description: 'Personal portfolio showcasing my projects and skills',
-    creator: '@yourusername',
-    images: ['https://yourportfolio.com/og-image.jpg'],
-  },
+  }
 }
 
 // Import components
