@@ -67,7 +67,7 @@ export const skills: Skill[] = [
     level: 'Intermediate',
   },
   {
-    name: 'MsSQL',
+    name: 'MySQL',
     icon: SiMysql as IconType,
     level: 'Intermediate',
   }
