@@ -46,7 +46,7 @@ export default function ProjectsSection() {
                     ))}
                   </div>
                   <div className="flex gap-3">
-                    {project.demoUrl && (
+                    {/* {project.demoUrl && (
                       <Link
                         href={project.demoUrl}
                         target="_blank"
@@ -55,7 +55,7 @@ export default function ProjectsSection() {
                       >
                         Live Demo
                       </Link>
-                    )}
+                    )} */}
                     {project.codeUrl && (
                       <Link
                         href={project.codeUrl}
