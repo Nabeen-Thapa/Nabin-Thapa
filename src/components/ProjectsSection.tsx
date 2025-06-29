@@ -61,9 +61,7 @@ export default function ProjectsSection() {
                         href={project.codeUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-2 w-full text-sm border border-primary text-primary px-4 py-2 rounded hover:bg-primary/10 transition-colors"
-    
-                      >
+                        className="w-full flex items-center justify-center gap-2 text-sm border border-primary text-primary px-4 py-2 rounded hover:bg-primary/10 transition-colors">
                         {/* GitHub SVG Icon */}
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
