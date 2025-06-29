@@ -16,7 +16,7 @@ export const projects: Project[] = [
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/myPortfilio',
-    image: "/Assets/attendance.png"
+    image: "/Assets/portfolio.png"
   },
   {
     id: '2',
@@ -43,7 +43,7 @@ export const projects: Project[] = [
     technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/smartJHOLA',
-    image: "/Assets/attendance.png"
+    image: "/Assets/smartjhola.png"
   },
   {
     id: '5',
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     technologies: ['React', 'Node.js', "Typescript", 'TypeORM'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/fruit-Selling-System',
-    image: "/Assets/attendance.png"
+    image: "/Assets/faldul.png"
   },
   {
     id: '6',
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     technologies: ['React', 'typescript', 'typeORM'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/password_manager',
-    image: "/Assets/attendance.png"
+    image: "/Assets/password-manager.png"
   },
   {
     id: '7',

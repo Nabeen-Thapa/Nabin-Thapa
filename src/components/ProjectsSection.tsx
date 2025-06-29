@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { projects } from '@/constants/projects'
+import Image from 'next/image';
 
 export default function ProjectsSection() {
   return (
@@ -26,9 +27,12 @@ export default function ProjectsSection() {
               >
                 <div className="h-48 bg-gray-200 dark:bg-slate-600 relative overflow-hidden">
                   {/* Replace with actual project image */}
-                  <div className="w-full h-full flex items-center justify-center">
-                    <span className="text-gray-500 dark:text-gray-400"></span>
-                  </div>
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover"
+                  />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-2">{project.title}</h3>
