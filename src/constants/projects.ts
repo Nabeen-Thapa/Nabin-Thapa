@@ -20,7 +20,7 @@ export const projects: Project[] = [
   },
   {
     id: '2',
-    title: 'studnet Attendance system',
+    title: 'student Attendance system',
     description: 'A full stack sttendance platform with html, css, PHP with MySql',
     technologies: ['PHP', 'css', 'MySQL'],
     demoUrl: '#',
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     technologies: ['React', 'ExpressJS', 'MongooDB'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/iNoteBook',
-    image: "/Assets/attendance.png"
+    image: ""
   },
   {
     id: '4',
@@ -52,7 +52,7 @@ export const projects: Project[] = [
     technologies: ['React', 'Node.js', "Typescript", 'TypeORM'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/fruit-Selling-System',
-    image: "/Assets/faldul.png"
+    image: "/Assets/falful.png"
   },
   {
     id: '6',
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     technologies: ['React'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/reactJS/tree/main/newsapp',
-    image: "/Assets/attendance.png"
+    image: ""
   },
   {
     id: '8',
@@ -79,7 +79,7 @@ export const projects: Project[] = [
     technologies: ['React', 'SocketIO'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/text-editor',
-    image:"/Assets/attendance.png"
+    image:""
   }
   
   // Add more projects as needed
