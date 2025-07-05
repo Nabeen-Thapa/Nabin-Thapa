@@ -31,7 +31,7 @@ export default function HeroSection() {
               Contact Me
             </Link>
             <a
-              href="./resume.pdf"
+              href="/resume.pdf"
               download
               className="flex items-center gap-2 border border-primary text-primary px-6 py-3 rounded-lg hover:bg-primary/10 transition-colors"
             >
