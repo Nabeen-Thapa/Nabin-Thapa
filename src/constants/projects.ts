@@ -10,15 +10,6 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    id: '1',
-    title: 'Portfolio Website',
-    description: 'A personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.',
-    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
-    demoUrl: '#',
-    codeUrl: 'https://github.com/Nabeen-Thapa/myPortfilio',
-    image: "/Assets/portfolio.png"
-  },
-  {
     id: '2',
     title: 'student Attendance system',
     description: 'A full stack sttendance platform with html, css, PHP with MySql',
