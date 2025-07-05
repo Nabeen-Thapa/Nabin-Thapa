@@ -34,7 +34,7 @@ export const projects: Project[] = [
     technologies: ['React', 'ExpressJS', 'MongooDB'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/iNoteBook',
-    image: ""
+    image: "/Assets/inotebook.png"
   },
   {
     id: '4',
@@ -70,7 +70,7 @@ export const projects: Project[] = [
     technologies: ['React'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/reactJS/tree/main/newsapp',
-    image: ""
+    image: "/Assets/newsPortal.png"
   },
   {
     id: '8',
@@ -79,7 +79,7 @@ export const projects: Project[] = [
     technologies: ['React', 'SocketIO'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/text-editor',
-    image:""
+    image:"/Assets/text-editor.png"
   }
   
   // Add more projects as needed
