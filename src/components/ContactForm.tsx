@@ -99,7 +99,7 @@ export default function ContactForm() {
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
               >
-                linkedin.com/in/nabinthapa123
+                Nabin Thapa
               </a>
             </div>
           </div>
@@ -116,7 +116,7 @@ export default function ContactForm() {
                 rel="noopener noreferrer"
                 className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
               >
-                github.com/Nabeen-Thapa
+                Nabeen-Thapa
               </a>
             </div>
           </div>
