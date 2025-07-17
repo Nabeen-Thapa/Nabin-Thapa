@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import { FiMail, FiMapPin, FiPhone } from 'react-icons/fi'
+import { FiMail, FiMapPin, FiPhone, FiGithub, FiLinkedin } from 'react-icons/fi'
 import { motion } from 'framer-motion'
 
 export default function ContactForm() {
@@ -52,10 +52,10 @@ export default function ContactForm() {
             <div>
               <h3 className="font-medium">Email</h3>
               <a 
-                href="mailto:your.email@example.com" 
+                href="mailto:nabeen2058@gmail.com" 
                 className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
               >
-                your.email@example.com
+                nabeen2058@gmail.com
               </a>
             </div>
           </div>
@@ -67,10 +67,10 @@ export default function ContactForm() {
             <div>
               <h3 className="font-medium">Phone</h3>
               <a 
-                href="tel:+1234567890" 
+                href="tel:+9779845217529" 
                 className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
               >
-                +1 (234) 567-890
+               9845217529
               </a>
             </div>
           </div>
@@ -82,8 +82,42 @@ export default function ContactForm() {
             <div>
               <h3 className="font-medium">Location</h3>
               <p className="text-gray-600 dark:text-gray-400">
-                City, Country
+               Lalitpur, Nepal
               </p>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-4">
+            <div className="text-primary mt-1">
+              <FiLinkedin size={20} />
+            </div>
+            <div>
+              <h3 className="font-medium">LinkedIn</h3>
+              <a 
+                href="https://www.linkedin.com/in/nabinthapa123/" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+              >
+                linkedin.com/in/nabinthapa123
+              </a>
+            </div>
+          </div>
+
+          <div className="flex items-start gap-4">
+            <div className="text-primary mt-1">
+              <FiGithub size={20} />
+            </div>
+            <div>
+              <h3 className="font-medium">GitHub</h3>
+              <a 
+                href="https://github.com/Nabeen-Thapa" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-primary transition-colors"
+              >
+                github.com/Nabeen-Thapa
+              </a>
             </div>
           </div>
         </div>
