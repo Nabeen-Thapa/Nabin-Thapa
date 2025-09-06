@@ -10,11 +10,6 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div className="bg-white dark:bg-slate-700 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">
       <div className="h-48 bg-gray-200 dark:bg-slate-600 relative overflow-hidden">
-
-        {/* Replace with actual project image */}
-        {/* <div className="w-full h-full flex items-center justify-center">
-          <span className="text-gray-500 dark:text-gray-400">Project Image</span>
-        </div> */}
         <Image
           src={project.image}
           alt={project.title}

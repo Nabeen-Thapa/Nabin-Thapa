@@ -3,6 +3,7 @@ import SkillsSection from '@/components/SkillsSection'
 import ProjectsSection from '@/components/ProjectsSection'
 import ContactSection from '@/components/ContactSection'
 import './globals.css'
+import QualificationsSection from '@/components/QualificationsSection'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroSection />
       <SkillsSection />
       <ProjectsSection />
+      <QualificationsSection/>
       <ContactSection />
     </>
   )
