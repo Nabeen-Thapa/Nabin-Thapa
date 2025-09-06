@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react'
 import { FiMenu, FiX} from 'react-icons/fi'
 import { motion, AnimatePresence } from 'framer-motion'
+import Link from 'next/link';
 
 const navItems = [
   { name: 'Home', path: '/' },
@@ -35,18 +36,6 @@ export default function Header() {
     }
   }, [])
 
-  const toggleDarkMode = () => {
-    const newMode = !darkMode
-    setDarkMode(newMode)
-    localStorage.setItem('darkMode', String(newMode))
-
-    if (newMode) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
-  }
-
   return (
     <motion.header
       initial={{ y: -100 }}
@@ -58,9 +47,9 @@ export default function Header() {
     >
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-          <a href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Nabin Thapa
-          </a>
+          </Link>
         </motion.div>
 
         {/* Desktop Navigation */}
@@ -73,13 +62,13 @@ export default function Header() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
               >
-                <a
+                <Link
                   href={item.path}
                   className="relative group font-medium text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors"
                 >
                   {item.name}
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 transition-all group-hover:w-full"></span>
-                </a>
+                </Link>
               </motion.li>
             ))}
           </ul>
@@ -115,13 +104,13 @@ export default function Header() {
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: index * 0.1 }}
                 >
-                  <a
+                  <Link
                     href={item.path}
                     className="block py-3 px-4 rounded-lg hover:bg-gray-100 dark:hover:bg-slate-700 transition-colors font-medium"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.name}
-                  </a>
+                  </Link>
                 </motion.li>
               ))}
             </ul>

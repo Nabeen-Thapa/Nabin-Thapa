@@ -1,6 +1,6 @@
-'use client';
-import { motion } from 'framer-motion'
-import { FiDownload } from 'react-icons/fi'
+"use client";
+import { motion } from "framer-motion"
+import { FiDownload } from "react-icons/fi"
 
 export default function HeroSection() {
   return (
@@ -20,13 +20,13 @@ export default function HeroSection() {
           className="max-w-3xl mx-auto text-center"
         >
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Hi, I'm <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Nabin Thapa</span>
+            Hi, I&apos;m <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Nabin Thapa</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-8">
             Backend Developer
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-10 max-w-2xl mx-auto">
-            I build exceptional digital experiences with modern technologies. Currently focused on creating accessible, user-friendly web applications.
+            I build exceptional digital experiences with modern technologies. Currently focused on creating accessible&lsquo; user-friendly web applications.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <motion.a
