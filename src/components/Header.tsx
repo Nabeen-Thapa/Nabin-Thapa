@@ -14,7 +14,6 @@ const navItems = [
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
-  const [darkMode, setDarkMode] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,18 +21,6 @@ export default function Header() {
     }
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
-  useEffect(() => {
-    const isDark = localStorage.getItem('darkMode') === 'true' ||
-      (window.matchMedia('(prefers-color-scheme: dark)').matches && !localStorage.getItem('darkMode'))
-    setDarkMode(isDark)
-
-    if (isDark) {
-      document.documentElement.classList.add('dark')
-    } else {
-      document.documentElement.classList.remove('dark')
-    }
   }, [])
 
   return (
