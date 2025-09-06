@@ -1,7 +1,7 @@
-'use client'
-import ContactForm from '@/components/ContactForm'
-import { motion } from 'framer-motion'
-import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin } from 'react-icons/fi'
+"use client"
+import ContactForm from "@/components/ContactForm"
+import { motion } from "framer-motion"
+import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin } from "react-icons/fi"
 
 export default function ContactPage() {
   return (
@@ -15,11 +15,11 @@ export default function ContactPage() {
         >
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-              Let's Connect
+              Let&lsquo;s Connect
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Have a question or want to work together? I'd love to hear from you. 
-              Send me a message and I'll respond as soon as possible.
+              Have a question or want to work together? I&lsquo;d love to hear from you. 
+              Send me a message and I&lsquo;ll respond as soon as possible.
             </p>
           </div>
           

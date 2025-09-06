@@ -1,13 +1,13 @@
-'use client';
-import { useState } from 'react'
-import { motion } from 'framer-motion'
-import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin } from 'react-icons/fi'
+"use client";
+import { useState } from "react"
+import { motion } from "framer-motion"
+import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin } from "react-icons/fi"
 
 export default function ContactSection() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: " ",
+    email: " ",
+    message: " ",
   })
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -21,7 +21,7 @@ export default function ContactSection() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     // Handle form submission
-    console.log('Form submitted:', formData)
+    console.log("Form submitted:", formData)
   }
 
   return (
@@ -39,7 +39,7 @@ export default function ContactSection() {
               Get In <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Touch</span>
             </h2>
             <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              Feel free to reach out if you're looking for a developer, have a question, or just want to connect.
+              Feel free to reach out if you&lsquo;re looking for a developer, have a question, or just want to connect.
             </p>
           </div>
           

@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from 'react'
-import { FiMenu, FiX, FiMoon, FiSun } from 'react-icons/fi'
+import { FiMenu, FiX} from 'react-icons/fi'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const navItems = [
@@ -86,19 +86,6 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-4">
-          {/* <motion.button
-            whileTap={{ scale: 0.95 }}
-            onClick={toggleDarkMode}
-            className="p-2 rounded-full bg-gray-200 dark:bg-slate-700 transition-colors"
-            aria-label={darkMode ? 'Switch to light mode' : 'Switch to dark mode'}
-          >
-            <motion.div
-              animate={{ rotate: darkMode ? 180 : 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              {darkMode ? <FiSun size={20} /> : <FiMoon size={20} />}
-            </motion.div>
-          </motion.button> */}
 
           {/* Mobile Menu Button */}
           <button
