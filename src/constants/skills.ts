@@ -7,7 +7,8 @@ import {
   SiJavascript, 
   SiExpress,
   SiMongodb,
-  SiMysql
+  SiMysql,
+  SiNestjs
 } from 'react-icons/si';
 import { DiPostgresql } from 'react-icons/di'; // For TypeORM (commonly used with PostgreSQL)
 import { IconType } from 'react-icons/lib';
@@ -55,6 +56,11 @@ export const skills: Skill[] = [
     name: 'Tailwind CSS',
     icon: SiTailwindcss as IconType,
     level: 'Basic',
+  },
+   {
+    name: 'NestJS',
+    icon: SiNestjs as IconType,
+    level: 'Intermediate',
   },
   {
     name: 'TypeORM',

@@ -1,4 +1,4 @@
-import { Metadata, Viewport } from "next"; // Add Viewport import
+import { Metadata, Viewport } from "next";
 import { Inter, Roboto_Mono } from 'next/font/google';
 import './globals.css'
 
