@@ -120,7 +120,7 @@ export default function HeroSection() {
               transition={{ delay: 0.3 }}
               className="text-2xl md:text-3xl text-gray-600 dark:text-gray-300 mb-8"
             >
-              Backend Developer
+            Fullstack Developer
             </motion.h2>
             
             <motion.p 

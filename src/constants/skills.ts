@@ -50,7 +50,7 @@ export const skills: Skill[] = [
   {
     name: 'React',
     icon: FaReact as IconType,
-    level: 'Basic',
+    level: 'Intermediate',
   },
   {
     name: 'Next.js',
@@ -60,7 +60,7 @@ export const skills: Skill[] = [
   {
     name: 'Tailwind CSS',
     icon: SiTailwindcss as IconType,
-    level: 'Basic',
+    level: 'Intermediate',
   },
   {
     name: 'TypeORM',
