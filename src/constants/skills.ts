@@ -42,6 +42,11 @@ export const skills: Skill[] = [
     icon: SiTypescript as IconType,
     level: 'Advanced',
   },
+   {
+    name: 'NestJS',
+    icon: SiNestjs as IconType,
+    level: 'Intermediate',
+  },
   {
     name: 'React',
     icon: FaReact as IconType,
@@ -56,11 +61,6 @@ export const skills: Skill[] = [
     name: 'Tailwind CSS',
     icon: SiTailwindcss as IconType,
     level: 'Basic',
-  },
-   {
-    name: 'NestJS',
-    icon: SiNestjs as IconType,
-    level: 'Intermediate',
   },
   {
     name: 'TypeORM',
