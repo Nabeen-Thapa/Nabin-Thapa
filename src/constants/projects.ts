@@ -10,17 +10,17 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  // {
-  //   id: '1',
-  //   title: 'A-Z ELECTRICAL AND ELECTRONIC',
-  //   description: 'A full stack ecommerce platform for rlectric shop with html, css, PHP with MySql',
-  //   technologies: ['React + TypeScript', 'Node.js + TypeScript', 'Express', 'PostgreSQL'],
-  //   demoUrl: 'https://www.a2zelectricmarmat.com',
-  //   codeUrl: '#',
-  //   image: "/Assets/atoz.png",
-  //   isDeployed: true
+  {
+    id: '1',
+    title: 'A-Z ELECTRICAL AND ELECTRONIC',
+    description: 'A full stack ecommerce platform for electronic shop with react, typescript, postgres',
+    technologies: ['React + TypeScript', 'Node.js + TypeScript', 'Express', 'PostgreSQL'],
+    demoUrl: 'https://www.a2zelectricmarmat.com',
+    codeUrl: '#',
+    image: "/Assets/atoz.png",
+    isDeployed: true
 
-  // },
+  },
   {
     id: '2',
     title: 'student Attendance system',
