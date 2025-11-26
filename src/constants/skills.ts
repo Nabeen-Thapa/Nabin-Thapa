@@ -8,10 +8,16 @@ import {
   SiExpress,
   SiMongodb,
   SiMysql,
-  SiNestjs
+  SiNestjs,
+  SiRedis,
+  SiPostman,
+  SiDocker,
+  SiNginx
 } from 'react-icons/si';
-import { DiPostgresql } from 'react-icons/di'; // For TypeORM (commonly used with PostgreSQL)
+import { DiPostgresql } from 'react-icons/di';
 import { IconType } from 'react-icons/lib';
+import { FaServer } from 'react-icons/fa';
+import { BsStack } from 'react-icons/bs';      // BullMQ icon alternative
 
 // Define the skill type
 type Skill = {
@@ -20,7 +26,6 @@ type Skill = {
   level: string;
 };
 
-// Cast each icon to IconType to ensure type safety
 export const skills: Skill[] = [
   {
     name: 'Node.js',
@@ -42,7 +47,7 @@ export const skills: Skill[] = [
     icon: SiTypescript as IconType,
     level: 'Advanced',
   },
-   {
+  {
     name: 'NestJS',
     icon: SiNestjs as IconType,
     level: 'Intermediate',
@@ -64,7 +69,7 @@ export const skills: Skill[] = [
   },
   {
     name: 'TypeORM',
-    icon: DiPostgresql as IconType, // TypeORM is often used with PostgreSQL
+    icon: DiPostgresql as IconType,
     level: 'Intermediate',
   },
   {
@@ -76,5 +81,35 @@ export const skills: Skill[] = [
     name: 'MySQL',
     icon: SiMysql as IconType,
     level: 'Intermediate',
-  }
+  },
+  {
+    name: 'BullMQ',
+    icon: BsStack as IconType,    
+    level: 'Intermediate',
+  },
+  {
+    name: 'Redis',
+    icon: SiRedis as IconType,
+    level: 'Intermediate',
+  },
+  {
+    name: 'Docker',
+    icon: SiDocker as IconType,
+    level: 'Beginner',
+  },
+  {
+    name: 'Postman',
+    icon: SiPostman as IconType,
+    level: 'Advanced',
+  },
+  {
+    name: 'Nginx',
+    icon: SiNginx as IconType,
+    level: 'Beginner',
+  },
+ {
+  name: 'PM2',
+  icon: FaServer as IconType,
+  level: 'Intermediate',
+},
 ];

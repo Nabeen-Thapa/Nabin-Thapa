@@ -40,7 +40,7 @@ export default function SkillsSection() {
                   <h3 className="font-semibold text-lg text-center mb-2">
                     {skill.name}
                   </h3>
-                  <div className="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-2">
+                  {/* <div className="w-full bg-gray-200 dark:bg-slate-700 rounded-full h-2">
                     <div 
                       className="bg-primary h-2 rounded-full transition-all duration-1000"
                       style={{ 
@@ -52,7 +52,7 @@ export default function SkillsSection() {
                   </div>
                   <span className="text-xs text-gray-500 dark:text-gray-400 mt-2">
                     {skill.level}
-                  </span>
+                  </span> */}
                 </motion.div>
               )
             })}
