@@ -1,10 +1,10 @@
 // src/constants/skills.ts
 import { FaReact, FaNodeJs } from 'react-icons/fa';
-import { 
-  SiTypescript, 
-  SiNextdotjs, 
-  SiTailwindcss, 
-  SiJavascript, 
+import {
+  SiTypescript,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiJavascript,
   SiExpress,
   SiMongodb,
   SiMysql,
@@ -12,7 +12,8 @@ import {
   SiRedis,
   SiPostman,
   SiDocker,
-  SiNginx
+  SiNginx,
+  SiDebian
 } from 'react-icons/si';
 import { DiPostgresql } from 'react-icons/di';
 import { IconType } from 'react-icons/lib';
@@ -83,8 +84,13 @@ export const skills: Skill[] = [
     level: 'Intermediate',
   },
   {
+    name: 'Debian VPS',
+    icon: SiDebian as IconType,
+    level: 'Intermediate',
+  },
+  {
     name: 'BullMQ',
-    icon: BsStack as IconType,    
+    icon: BsStack as IconType,
     level: 'Intermediate',
   },
   {
@@ -107,9 +113,9 @@ export const skills: Skill[] = [
     icon: SiNginx as IconType,
     level: 'Beginner',
   },
- {
-  name: 'PM2',
-  icon: FaServer as IconType,
-  level: 'Intermediate',
-},
+  {
+    name: 'PM2',
+    icon: FaServer as IconType,
+    level: 'Intermediate',
+  },
 ];
