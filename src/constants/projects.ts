@@ -91,5 +91,16 @@ export const projects: Project[] = [
     image: "/Assets/text-editor.png",
     isDeployed: false
   }
+  ,
+  {
+    id: '9',
+    title: 'Email service',
+    description: 'A simple mail service where a sender can send mail to multiple email at once',
+    technologies: [ 'React + TypeScript', 'Express + TypeScript','Redis', 'BullMQ', 'Docker'],
+    demoUrl: '#',
+    codeUrl: 'https://github.com/Nabeen-Thapa/email-service',
+    image: "/Assets/emailService.png",
+    isDeployed: false
+  }
 
 ]
