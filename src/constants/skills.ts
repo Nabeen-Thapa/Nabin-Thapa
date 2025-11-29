@@ -18,7 +18,7 @@ import {
 import { DiPostgresql } from 'react-icons/di';
 import { IconType } from 'react-icons/lib';
 import { FaServer } from 'react-icons/fa';
-import { BsStack } from 'react-icons/bs';      // BullMQ icon alternative
+import { BsGear, BsStack } from 'react-icons/bs';      // BullMQ icon alternative
 
 // Define the skill type
 type Skill = {
@@ -116,6 +116,11 @@ export const skills: Skill[] = [
   {
     name: 'PM2',
     icon: FaServer as IconType,
+    level: 'Intermediate',
+  },
+   {
+    name: 'CI/CD',
+    icon: BsGear as IconType, // generic gear for automation
     level: 'Intermediate',
   },
 ];
