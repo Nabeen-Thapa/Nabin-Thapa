@@ -102,5 +102,4 @@ export const projects: Project[] = [
     image: "/Assets/emailService.png",
     isDeployed: false
   }
-
 ]
