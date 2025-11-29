@@ -32,7 +32,7 @@ jobs:
           key: ${{ secrets.SERVER_KEY }}
           port: 22
           script: |
-            cd /Nabin-Thapa/out
+            cd /home/nabin/Nabin-Thapa/out
             git pull
             npm install
             npm run build
