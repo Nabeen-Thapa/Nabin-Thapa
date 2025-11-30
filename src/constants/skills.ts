@@ -120,7 +120,7 @@ export const skills: Skill[] = [
   },
    {
     name: 'CI/CD',
-    icon: BsGear as IconType, // generic gear for automation
+    icon: BsGear as IconType,
     level: 'Intermediate',
   },
 ];

@@ -51,7 +51,7 @@ export default function QualificationsSection() {
       id: 2,
       role: 'DevOps Training',
       company: 'Nepdev',
-      period: '2024 - Ongoing',
+      period: '2025 - Ongoing',
       description: 'Currently learning DevOps practices and tools',
       icon: <FiBriefcase className="text-purple-500" />,
       companyDetails: {
