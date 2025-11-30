@@ -23,6 +23,16 @@ export const projects: Project[] = [
   },
   {
     id: '2',
+    title: 'Note Keeping System - iKeepMy',
+    description: 'A MERN-stack note keeping platform with React, Node.js,ExpressJS, and MongoDB.',
+    technologies: ['React', 'ExpressJS', 'MongooDB'],
+    demoUrl: 'https://ikeepmy.nabinthapa99.com.np',
+    codeUrl: '#',
+    image: "/Assets/inotebook.png",
+    isDeployed: true
+  },
+  {
+    id: '3',
     title: 'student Attendance system',
     description: 'A full stack attendance platform with React, TypeScript, Express, PostgreSQL, Tailwind CSS',
     technologies: ['PHP', 'css', 'MySQL'],
@@ -31,16 +41,7 @@ export const projects: Project[] = [
     image: "/Assets/attendance.png",
     isDeployed: false
   },
-  {
-    id: '3',
-    title: 'Note Keeping System - iKeepMy',
-    description: 'A MERN-stack note keeping platform with React, Node.js,ExpressJS, and MongoDB.',
-    technologies: ['React', 'ExpressJS', 'MongooDB'],
-    demoUrl: '#',
-    codeUrl: 'https://github.com/Nabeen-Thapa/iNoteBook',
-    image: "/Assets/inotebook.png",
-    isDeployed: false
-  },
+  
   {
     id: '4',
     title: 'E-commerce Platform-smartJHOLA',
