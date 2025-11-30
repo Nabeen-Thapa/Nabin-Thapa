@@ -12,7 +12,7 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: '1',
-    title: 'A-Z ELECTRICAL AND ELECTRONIC',
+    title: 'system for electric shop',
     description: 'A full stack ecommerce platform for electronic shop with react, typescript, postgres',
     technologies: ['React + TypeScript', 'Node.js + TypeScript', 'Express', 'PostgreSQL'],
     demoUrl: 'https://www.a2zelectricmarmat.com',
