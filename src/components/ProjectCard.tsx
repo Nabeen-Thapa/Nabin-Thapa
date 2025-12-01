@@ -19,9 +19,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       </div>
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-        <h3 className="text-xl font-bold mb-2">{project.title}</h3>
         {project.isPersonal && (
-          <h5 className="text-sm font-bold text-red-600 mb-2">(personal)</h5>
+          <h5 className="text-sm font-bold text-red-400 mb-2">(personal)</h5>
         )}
         <p className="text-gray-600 dark:text-gray-400 mb-4">
           {project.description}
