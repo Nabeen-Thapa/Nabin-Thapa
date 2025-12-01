@@ -7,6 +7,7 @@ export interface Project {
   codeUrl?: string
   image: string
   isDeployed?: boolean
+  isPersonal?: boolean
 }
 
 export const projects: Project[] = [
@@ -18,7 +19,8 @@ export const projects: Project[] = [
     demoUrl: 'https://www.a2zelectricmarmat.com',
     codeUrl: '#',
     image: "/Assets/atoz.png",
-    isDeployed: true
+    isDeployed: true,
+    isPersonal: false
 
   },
   {
@@ -29,7 +31,8 @@ export const projects: Project[] = [
     demoUrl: 'https://ikeepmy.nabinthapa99.com.np',
     codeUrl: '#',
     image: "/Assets/inotebook.png",
-    isDeployed: true
+    isDeployed: true,
+    isPersonal: true
   },
   {
     id: '3',
@@ -39,7 +42,8 @@ export const projects: Project[] = [
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/Attendance-system-project',
     image: "/Assets/attendance.png",
-    isDeployed: false
+    isDeployed: false,
+    isPersonal: true
   },
   
   {
@@ -50,7 +54,8 @@ export const projects: Project[] = [
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/smartJHOLA',
     image: "/Assets/smartjhola.png",
-    isDeployed: false
+    isDeployed: false,
+    isPersonal: true
   },
   {
     id: '5',
@@ -60,7 +65,8 @@ export const projects: Project[] = [
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/fruit-Selling-System',
     image: "/Assets/falful.png",
-    isDeployed: false
+    isDeployed: false,
+    isPersonal: true
   },
   {
     id: '6',
@@ -70,7 +76,8 @@ export const projects: Project[] = [
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/password_manager',
     image: "/Assets/password-manager.png",
-    isDeployed: false
+    isDeployed: false,
+    isPersonal: true
   },
   {
     id: '7',
@@ -80,7 +87,8 @@ export const projects: Project[] = [
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/reactJS/tree/main/newsapp',
     image: "/Assets/newsPortal.png",
-    isDeployed: false
+    isDeployed: false,
+    isPersonal: true
   },
   {
     id: '8',
@@ -90,7 +98,8 @@ export const projects: Project[] = [
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/text-editor',
     image: "/Assets/text-editor.png",
-    isDeployed: false
+    isDeployed: false,
+    isPersonal: true
   }
   ,
   {
@@ -101,6 +110,7 @@ export const projects: Project[] = [
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/email-service',
     image: "/Assets/emailService.png",
-    isDeployed: false
+    isDeployed: false,
+    isPersonal: true
   }
 ]
