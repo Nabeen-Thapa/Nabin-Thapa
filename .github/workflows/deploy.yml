@@ -50,16 +50,9 @@
             key: ${{ secrets.SERVER_KEY }}
             port: 8022
             script: |
-              echo "Starting deployment..."
               cd /home/nabin/Nabin-Thapa || exit 1
-              echo "Pulling latest code..."
-              git reset --hard
-              git clean -fd
               git pull origin main
-              echo "Installing dependencies..."
               npm ci
-              echo "Building project..."
               npm run build
-              echo "Restarting PM2 process..."
               pm2 restart portfolio || pm2 start npm --name portfolio -- run start
-              echo "Deployment finished successfully!"
+              
