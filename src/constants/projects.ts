@@ -94,7 +94,7 @@ export const projects: Project[] = [
     id: '8',
     title: 'text editor',
     description: 'A simple real time text editor/colaborator platform with React Soecket.io',
-    technologies: ['React', 'SocketIO'],
+    technologies: ['React', 'SocketIO', 'Express + TypeScript'],
     demoUrl: '#',
     codeUrl: 'https://github.com/Nabeen-Thapa/text-editor',
     image: "/Assets/text-editor.png",

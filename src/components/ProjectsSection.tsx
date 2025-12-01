@@ -35,7 +35,12 @@ export default function ProjectsSection() {
                   />
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                  <p className="text-lg font-bold inline-flex mb-2">{project.title}
+                    
+                  </p>
+                   {project.isPersonal && (
+                    <p className="text-sm inline-flex text-red-400 mb-2 ml-1">(personal)</p>
+                  )}
                   <p className="text-gray-600 dark:text-gray-400 mb-4">
                     {project.description}
                   </p>
@@ -50,16 +55,16 @@ export default function ProjectsSection() {
                     ))}
                   </div>
                   <div className="flex gap-3 w-full">
-                    {project.isDeployed && project.demoUrl &&(
+                    {project.isDeployed && project.demoUrl && (
                       <Link
                         href={project.demoUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full flex items-center justify-center text-sm bg-primary text-white px-4 py-2 rounded hover:bg-primary/90 transition-colors">
-                        Live Demo
+                        Live
                       </Link>
                     )}
-                    {project.codeUrl && !project.isDeployed &&(
+                    {project.codeUrl && !project.isDeployed && (
                       <Link
                         href={project.codeUrl}
                         target="_blank"
