@@ -5,7 +5,7 @@ import { FiBook, FiBriefcase, FiMapPin, FiCalendar, FiGlobe, FiMail } from 'reac
 
 export default function QualificationsSection() {
   const [activeTab, setActiveTab] = useState<'education' | 'experience'>('education');
-  
+
   const education = [
     {
       id: 1,
@@ -49,10 +49,10 @@ export default function QualificationsSection() {
     },
     {
       id: 2,
-      role: 'DevOps Training',
+      role: 'Deployment & DevOps Experience',
       company: 'Nepdev',
       period: '2025 - Ongoing',
-      description: 'Currently learning DevOps practices and tools',
+      description: 'Worked on deploying full-stack applications using GitHub Actions CI/CD, VPS (Ubuntu), Nginx, PM2, Vercel, and Cloudflare DNS.',
       icon: <FiBriefcase className="text-purple-500" />,
       companyDetails: {
         address: 'Tarkeshowr 02, Kathmandu',
@@ -86,21 +86,19 @@ export default function QualificationsSection() {
           <div className="bg-gray-100 dark:bg-slate-800 p-1 rounded-xl inline-flex">
             <button
               onClick={() => setActiveTab('education')}
-              className={`px-6 py-3 rounded-xl text-sm font-medium transition-all ${
-                activeTab === 'education'
+              className={`px-6 py-3 rounded-xl text-sm font-medium transition-all ${activeTab === 'education'
                   ? 'bg-white dark:bg-slate-700 text-blue-600 shadow-sm'
                   : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
-              }`}
+                }`}
             >
               Education
             </button>
             <button
               onClick={() => setActiveTab('experience')}
-              className={`px-6 py-3 rounded-xl text-sm font-medium transition-all ${
-                activeTab === 'experience'
+              className={`px-6 py-3 rounded-xl text-sm font-medium transition-all ${activeTab === 'experience'
                   ? 'bg-white dark:bg-slate-700 text-blue-600 shadow-sm'
                   : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
-              }`}
+                }`}
             >
               Experience
             </button>
@@ -189,7 +187,7 @@ export default function QualificationsSection() {
                         <p className="text-gray-600 dark:text-gray-400 mb-4">
                           {exp.description}
                         </p>
-                        
+
                         {/* Company Details */}
                         <div className="mt-4 pt-4 border-t border-gray-200 dark:border-slate-700">
                           <h4 className="text-sm font-semibold text-gray-900 dark:text-white mb-3">
@@ -202,9 +200,9 @@ export default function QualificationsSection() {
                             </div>
                             <div className="flex items-center gap-3">
                               <FiGlobe size={14} className="flex-shrink-0 text-gray-600 dark:text-gray-400" />
-                              <a 
-                                href={exp.companyDetails.website} 
-                                target="_blank" 
+                              <a
+                                href={exp.companyDetails.website}
+                                target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-600 dark:text-blue-400 hover:underline"
                               >
@@ -213,7 +211,7 @@ export default function QualificationsSection() {
                             </div>
                             <div className="flex items-center gap-3">
                               <FiMail size={14} className="flex-shrink-0 text-gray-600 dark:text-gray-400" />
-                              <a 
+                              <a
                                 href={`mailto:${exp.companyDetails.email}`}
                                 className="text-blue-600 dark:text-blue-400 hover:underline"
                               >
@@ -230,7 +228,7 @@ export default function QualificationsSection() {
             )}
           </AnimatePresence>
 
-          
+
         </div>
       </div>
     </section>
