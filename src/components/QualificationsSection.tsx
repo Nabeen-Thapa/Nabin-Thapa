@@ -52,7 +52,7 @@ export default function QualificationsSection() {
       role: 'Deployment & DevOps Experience',
       company: 'Nepdev',
       period: '2025 - Ongoing',
-      description: 'Worked on deploying full-stack applications using GitHub Actions CI/CD, VPS (Ubuntu), Nginx, PM2, Vercel, and Cloudflare DNS.',
+      description: 'Worked on deploying full-stack applications using GitHub Actions CI/CD, VPS (debian), Nginx, PM2, Vercel, and Cloudflare DNS.',
       icon: <FiBriefcase className="text-purple-500" />,
       companyDetails: {
         address: 'Tarkeshowr 02, Kathmandu',
