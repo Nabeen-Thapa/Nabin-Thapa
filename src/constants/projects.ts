@@ -36,6 +36,17 @@ export const projects: Project[] = [
   },
   {
     id: '3',
+    title: 'E-commerce Platform - fruit selling system',
+    description: 'A full-Stack e-commerce platform with React, Node.js, and typeORM',
+    technologies: ['React', 'Node.js', "Typescript", 'TypeORM'],
+    demoUrl: '',
+    codeUrl: 'https://falful.nabinthapa99.com.np',
+    image: "/Assets/falful.png",
+    isDeployed: false,
+    isPersonal: true
+  },
+  {
+    id: '4',
     title: 'student Attendance system',
     description: 'A full stack attendance platform with React, TypeScript, Express, PostgreSQL, Tailwind CSS',
     technologies: ['PHP', 'css', 'MySQL'],
@@ -47,7 +58,7 @@ export const projects: Project[] = [
   },
   
   {
-    id: '4',
+    id: '5',
     title: 'E-commerce Platform-smartJHOLA',
     description: 'A backend (backend only) e-commerce platform with React, Node.js, and typeORM',
     technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
@@ -57,17 +68,7 @@ export const projects: Project[] = [
     isDeployed: false,
     isPersonal: true
   },
-  {
-    id: '5',
-    title: 'E-commerce Platform - fruit selling system',
-    description: 'A full-Stack e-commerce platform with React, Node.js, and typeORM',
-    technologies: ['React', 'Node.js', "Typescript", 'TypeORM'],
-    demoUrl: '#',
-    codeUrl: 'https://github.com/Nabeen-Thapa/fruit-Selling-System',
-    image: "/Assets/falful.png",
-    isDeployed: false,
-    isPersonal: true
-  },
+  
   {
     id: '6',
     title: 'Passowrd managet',
