@@ -42,7 +42,7 @@ export const projects: Project[] = [
     demoUrl: 'https://falful.nabinthapa99.com.np',
     codeUrl: '#',
     image: "/Assets/falful.png",
-    isDeployed: false,
+    isDeployed: true,
     isPersonal: true
   },
   {
