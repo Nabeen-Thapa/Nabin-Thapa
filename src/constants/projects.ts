@@ -39,8 +39,8 @@ export const projects: Project[] = [
     title: 'E-commerce Platform - fruit selling system',
     description: 'A full-Stack e-commerce platform with React, Node.js, and typeORM',
     technologies: ['React', 'Node.js', "Typescript", 'TypeORM'],
-    demoUrl: '',
-    codeUrl: 'https://falful.nabinthapa99.com.np',
+    demoUrl: 'https://falful.nabinthapa99.com.np',
+    codeUrl: '#',
     image: "/Assets/falful.png",
     isDeployed: false,
     isPersonal: true
